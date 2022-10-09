@@ -1,0 +1,129 @@
+:root {
+    --border-style: 0.063rem solid #DBDBDB;
+    --background-color: #FFFFFF;
+    --border-radius: 0.188rem;
+    --margin-top: 1.25rem;
+    --light-color: #0095f6;
+    --dark-color: #385185;
+}
+
+body{
+   background-color: #FAFAFA;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.insta-logo {
+    margin-bottom: 1.25rem;
+}
+
+.container-imagens {
+    position: relative;
+}
+
+.img-celular {
+    width: 28rem;
+}
+
+.imagem-celular {
+    height: 39rem;
+    position: absolute;
+    left: 8.313rem;
+    top: 2.313rem;
+    transition: opacity 2s ease-in-out;
+}
+
+.container-itens {
+    width: 21.875rem;
+}
+
+.container-itens .container-form {
+    display: flex;
+    flex-direction: column;
+    border: var(--border-style);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    padding: 3.125rem 1.563rem 1.25rem 1.563rem;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    height: 2.25rem;
+    width: 100%;
+    border: var(--border-style);
+    border-radius: var(--border-radius);
+    padding-left: 0.313rem;
+    margin-top: var(--margin-top);
+    color: #262626;
+}
+
+button {
+    width: 100%;
+    background-color: var(--light-color);
+    height: 1.875rem;
+    border-radius: var(--border-radius);
+    border: none;
+    color: #FFFFFF;
+    margin-top: var(--margin-top);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.login-facebook {
+    color: var(--dark-color);
+    font-weight: bold;
+    text-align: center;
+    margin-top: var(--margin-top);
+    margin-bottom: 1.25rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.esqueceu-senha {
+    color:var(--dark-color);
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.75rem;
+}
+
+.container-cadastro {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--margin-top);
+    border: var(--border-style);
+    padding: 0.625rem 0 0.625rem;
+}
+
+.link-cadastro {
+    color: var(--light-color);
+    font-weight: bold;
+    font-size: 0.75rem;
+    margin-left: 0.313rem;
+    cursor: pointer;
+}
+
+.paragrafo-conta {
+    font-size: 0.75rem;
+}
+
+.paragrafo-app {
+    margin-top: var(--margin-top);
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.container-app {
+    display: flex;
+    justify-content: center;
+    gap: 0.625rem;
+}
+
+.logo-app {
+    width: 9.375rem;
+    cursor: pointer;
+}
